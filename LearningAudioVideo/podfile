@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+
+target :LearningAudioVideo do
+	pod 'Mantle', '1.5'
+	pod 'AFNetworking', '2.6.0'
+end
