@@ -5,10 +5,10 @@ CONFIGURE_FLAGS="--disable-shared --disable-frontend"
 ARCHS="arm64 armv7s x86_64 i386 armv7"
 
 # directories
-SOURCE=""
+SOURCE="./"
 FAT="fat-lame"
 
-SCRATCH="scratch-lame"
+SCRATCH="./"
 # must be an absolute path
 THIN=`pwd`/"thin-lame"
 

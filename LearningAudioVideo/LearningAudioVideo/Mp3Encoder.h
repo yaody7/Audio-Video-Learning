@@ -19,8 +19,6 @@ private:
     FILE *mp3File;
     lame_t lameClient;
 public:
-    Mp3Encoder();
-    ~Mp3Encoder();
     int init(const char *pcmFilePath, const char *mp3FilePath, int sampleRate, int channels, int bitRate);
     void encode();
     void destroy();
